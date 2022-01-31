@@ -5,7 +5,10 @@ body {
 }
 
 body {
-  background: mistyrose;
+     background: url("images/overlay.png"), url("../../images/birthday.jpg");
+     background-size: 256px 256px, cover;
+     background-attachment: fixed, fixed;
+     background-position: top left, center center;
 }
 
 .cake {
